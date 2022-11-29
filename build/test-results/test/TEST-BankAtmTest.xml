@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankAtmTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-11-28T07:26:22" hostname="DESKTOP-H71NKJ0" time="0.181">
+  <properties/>
+  <testcase name="shouldThrowIllegalArgumentExceptionWhenNegativeAmountIsCredited()" classname="BankAtmTest" time="0.067"/>
+  <testcase name="shouldThrowAmountCreditExceptionWhenAmountCreditedIsMoreThanOneLakh()" classname="BankAtmTest" time="0.006"/>
+  <testcase name="shouldCheckForPositiveValueOfAmountDebited()" classname="BankAtmTest" time="0.002"/>
+  <testcase name="shouldThrowAmountDebitExceptionWhenAmountDebitedIsMoreThanOneLakh()" classname="BankAtmTest" time="0.006"/>
+  <testcase name="shouldThrowMinimumBalanceExceptionWhenAmountIsLessThanFifteenThousand()" classname="BankAtmTest" time="0.054"/>
+  <testcase name="shouldCheckForPositiveValueOfAmountCredited()" classname="BankAtmTest" time="0.006"/>
+  <system-out><![CDATA[Current Balance is 0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
